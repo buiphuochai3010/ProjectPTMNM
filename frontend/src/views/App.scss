@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.daTitle {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.content-container {
+  background: #f5f9fb;
+  height: auto;
+  margin-left: 285px;
+  margin-top: 60px;
+  width: calc(100% - 285px);//Lay chieu rong 100% - cho chieu rong sidebar
+}
